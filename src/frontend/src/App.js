@@ -235,7 +235,7 @@ function App() {
                         rel="noopener noreferrer"
                         target="_blank"
                         href="https://github.com/TWBanana/student-management-system">
-                        Click here to my Github
+                        Click me
                     </a>
                 </Divider>
             </Footer>
