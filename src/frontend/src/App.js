@@ -2,7 +2,21 @@ import { useState, useEffect } from 'react'
 import {deleteStudent, getAllStudents} from "./client";
 
 // layout from ant.design
-import {Layout, Menu, Breadcrumb, Table, Spin, Empty, Button, Badge, Tag, Avatar, Popconfirm, Radio} from 'antd';
+import {
+    Layout,
+    Menu,
+    Breadcrumb,
+    Table,
+    Spin,
+    Empty,
+    Button,
+    Badge,
+    Tag,
+    Avatar,
+    Popconfirm,
+    Radio,
+    Divider
+} from 'antd';
 import {
     DesktopOutlined,
     PieChartOutlined,
@@ -215,7 +229,16 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{ textAlign: 'center' }}>By TWBanana</Footer>
+            <Footer style={{ textAlign: 'center' }}>
+                <Divider>
+                    <a
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href="https://github.com/TWBanana/student-management-system">
+                        Click here to my Github
+                    </a>
+                </Divider>
+            </Footer>
         </Layout>
     </Layout>
 }
