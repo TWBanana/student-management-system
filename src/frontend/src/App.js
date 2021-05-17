@@ -232,6 +232,7 @@ function App() {
             <Footer style={{ textAlign: 'center' }}>
                 <Divider>
                     <a
+                        rel="noopener noreferrer"
                         target="_blank"
                         href="https://github.com/TWBanana/student-management-system">
                         Click here to my Github
