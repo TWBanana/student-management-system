@@ -1,7 +1,15 @@
 # student-management-system
 
-- Create student management system web application to record user's name, email and gender.
-- Implement spring boot framework for back-end server, postgres database for storing data from the user input, React.js for front-end display. Bonding the back-end and front-end into .jar file using maven. Take the .jar file and bundle into docker image using jib. Deploy the docker image through AWS Elastic Beanstalk.
-- Skills applied on this project: Java, Spring Boot, Postgres, Docker, Jib, React.js Hooks, Maven, AWS
+- Spring Boot Backend API
+- Frontend with React.js Hooks and Functions Components
+- Maven Build Tool
+- Database using Postgres on Docker
+- Spring Data JPA
+- Server and Client Side Error Handling
+- Packaging applications for deployment using Docker and Jib
+- AWS RDS & Elastic Beanstalk
+- Software Deployment Automation with Github Actions
+- Software Deployment Monitoring with Slack
+- Unit and Integration Testing
 
 [Link to the app](http://studentmanagementsystem-env.eba-2vdibvuj.us-east-1.elasticbeanstalk.com/)
