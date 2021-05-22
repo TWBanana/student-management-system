@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   backend:
-    image: "twbanana/student-management-system:22.5.2021.18.11.54"
+    image: "twbanana/student-management-system:22.5.2021.22.11.16"
     ports:
       - "80:8080"
     restart: "always"
